@@ -9,6 +9,7 @@ header {
   height: 80px;
   z-index: 10;
   align-items: center;
+  background-color: white;
 }
 
 body {
@@ -46,6 +47,7 @@ nav span {
 }
 
 .large {
+
   border: 1px solid black;
   align-content: center;
   position: relative;
@@ -65,5 +67,13 @@ h2 {
 
 #box {
   margin: 0px;
-  border-bottom: 1px solid black;
+  border: 1px solid black;
+}
+
+.medium {
+  border: 1px solid black;
+  align-content: center;
+  position: relative;
+  top: 100px;
+  width: 300px;
 }
