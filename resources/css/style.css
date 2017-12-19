@@ -6,40 +6,64 @@ header {
   display: flex;
   border-bottom: 1px solid black;
   width: 100%;
+  height: 80px;
   z-index: 10;
+  align-items: center;
 }
 
-.square a {
+body {
+  margin: 0px !important;
+}
+
+a {
   color: black;
 }
 
-.square {
-  display: inline-flex;
-  flex-wrap: wrap;
-  align-self: center;
-  padding-left: 50px;
-
+header nav {
+  padding-right: 40px;
 }
 
 .logo {
   display: flex;
-  position: relative;
+  align-items: center;
   color: MediumAquamarine;
-  padding: 5px 10px 5px 25px;
   border: 1px solid black;
   margin-bottom: 5px;
-  justify-content: flex-start;
+  padding-left: 30px;
+  margin-right: 12px;
+}
+
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  justify-content: flex-end;
 }
 
 .large {
   border: 1px solid black;
-  align-content: flex-start;
+  align-content: center;
   position: relative;
   top: 100px;
   width: 630px;
 }
 
-h3 .large {
+h2 {
   font-weight: bold;
   align-self: flex-start;
+}
+
+.box {
+  border: 1px solid black;
+  margin: 0px;
+}
+
+#box {
+  margin: 0px;
+  border-bottom: 1px solid black;
 }
